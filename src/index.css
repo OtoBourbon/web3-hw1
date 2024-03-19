@@ -118,6 +118,7 @@ img{
 .get-in-touch h4{
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .get-in-touch h5{
@@ -134,6 +135,59 @@ img{
     border-radius: 0;
     border: 1px solid #18171c;
     box-shadow: none;
-    padding: 0.575rem 0.75rem
+    padding: 0.575rem 0.75rem;
+    height: 20px;
+    text-align: left; 
+    vertical-align: top;
 }
 
+.abcd-123{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+.abcd-123 input{
+    width: 240px;
+}
+
+.subject input{
+    width: 95%;
+}
+
+.your-message input{
+    width: 95%;
+    height: 60px;
+    resize: none;
+}
+
+.send-message{
+    background: #f7af24;
+    border-color: #18171c;
+    color: #18171c;
+    margin-top: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+}
+
+.send-message:hover{
+    background: #18171c;
+    color:aliceblue;
+}
+
+.contact-us{
+    border: 1px solid #18171c;
+    width: 20%;
+    height: 100px;
+    margin: 20px;
+}
+
+.contact-body{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
