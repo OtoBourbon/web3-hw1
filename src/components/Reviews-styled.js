@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Review = styled.div`
-        width: 340px;
+        width: 290px;
         border: solid 3px black;
         transition: 0.2s all ease-out;
         position: relative;

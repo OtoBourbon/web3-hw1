@@ -2,7 +2,10 @@ body{
     display: block;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
+
+/* section 1 */
 
 .sec1{
     max-width: 100%;
@@ -47,9 +50,12 @@ img{
     cursor: pointer;
 }
 
+
+/* section 2 */
+
 .sec2{
     max-width: 100%;
-    height: 1100px;
+    height: 1000px;
     background-color: #FFFFFF;
     display: grid;
     position: relative;
@@ -71,3 +77,63 @@ img{
     padding: 0;
     display: flex;
 }
+
+/* section 3 */
+
+.sec3{
+    max-width: 100%;
+    height: 800px;
+    background-color: rgba(247, 175, 36, 0.1);
+    display: grid;
+    position: relative;
+}
+
+.div-contacts{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+.head-contacts{
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.get-in-touch{
+    border: 2px solid #18171c;
+    padding: 35px;
+    background: #FFFFFF;
+}
+
+.get-in-touch h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}
+
+.get-in-touch h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.get-in-touch h5{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+
+.git-txt{
+    margin-bottom: 60px;
+}
+
+.get-in-touch input{
+    border-radius: 0;
+    border: 1px solid #18171c;
+    box-shadow: none;
+    padding: 0.575rem 0.75rem
+}
+
